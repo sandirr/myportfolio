@@ -1,13 +1,12 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 // react components for routing our app without refresh
 // import { Link } from "react-router-dom";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
-
-// core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
+// core components
 // import Button from "components/CustomButtons/Button.js";
 
 import sembuh from "assets/img/sembuh.png";
@@ -22,6 +21,8 @@ import sanchat from "assets/img/sanchat.png";
 import irsandicafe from "assets/img/irsandicafe.png";
 import tidakcovid from "assets/img/tidakcovid.png";
 import tiketku from "assets/img/tiketku.png";
+import experience from "assets/img/kopidate.png";
+import kd from "assets/img/kd.png";
 // import profile from "assets/img/profile.jpg";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.js";
@@ -31,9 +32,11 @@ import "aos/dist/aos.css";
 const useStyles = makeStyles(styles);
 
 const dataPortfolio = [
+  { name: "Kopi Date", img: kd, link: "https://kopidate.com" },
+  { name: "Experience Web App by Kopi Date", img: experience, link: "https://experience.kopidate.com" },
   { name: "Landing Page Sembuh", img: sembuh, link: "https://sembuh.id" },
   {
-    name: "Sembuh Dashboard",
+    name: "Admin Portal Sembuh",
     img: dashboardsembuh,
     link: "https://dashboard.sembuh.id",
   },
@@ -48,7 +51,7 @@ const dataPortfolio = [
     link: "https://play.google.com/store/apps/details?id=com.taruhe",
   },
   {
-    name: "BackOffice Powered by Telkom Indonesia",
+    name: "BackOffice Gealileo Powered by Telkom Indonesia",
     img: backoffice,
     link: "http://dtp-budget-frontend-user-management-dev.vsan-apps.playcourt.id/",
   },

@@ -51,7 +51,7 @@ export default function HeaderLinks(props) {
       </ListItem> */}
       <ListItem className={classes.listItem}>
         <Button
-          href="https://drive.google.com/file/d/1ZUMj7PjACYrNUc1GAuKoepwswSG2fDM6/view?usp=sharing"
+          href="https://www.canva.com/design/DAD2z6A9Exk/6xS1j4I4L6VakgIdvJ1MjA/view?utm_content=DAD2z6A9Exk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
           color="transparent"
           target="_blank"
           className={classes.navLink}
